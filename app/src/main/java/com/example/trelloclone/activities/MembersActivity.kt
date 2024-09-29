@@ -147,8 +147,6 @@ class MembersActivity : BaseActivity() {
         mAssignedMembersList.add(user)
         anyChangesMade = true
         setupMembersList(mAssignedMembersList)
-        // TODO (Step 5: Call the AsyncTask class when the board is assigned to the user and based on the users detail send them the notification using the FCM token.)
-        //SendNotificationToUserAsyncTask(mBoardDetails.name, user.fcmToken).execute()
     }
 
 
